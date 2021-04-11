@@ -1,0 +1,56 @@
+
+
+{
+  "type": "struct",
+
+  "fields" : [
+    {
+      "name" : "event_time",
+      "type" : "string",
+      "nullable" : true
+    },
+    {
+      "name" : "event_type",
+      "type" : "string",
+      "nullable" : true
+    },
+    {
+      "name" : "product_id",
+      "type" : "string",
+      "nullable" : true
+    } ,
+    {
+      "name" : "category_id",
+      "type" : "string",
+      "nullable" : true
+    } ,
+    {
+      "name" : "category_code",
+      "type" : "string",
+      "nullable" : true
+    } ,
+    {
+      "name" : "brand",
+      "type" : "string",
+      "nullable" : true
+    } ,
+    {
+      "name" : "price",
+      "type" : "double",
+      "nullable" : true
+    } ,
+    {
+      "name" : "user_id",
+      "type" : "string",
+      "nullable" : true
+    },
+    {
+      "name" : "user_session",
+      "type" : "string",
+      "nullable" : true
+    }
+
+
+  ]
+
+}

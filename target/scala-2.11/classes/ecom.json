@@ -1,0 +1,25 @@
+{
+  "header" : {
+    "appName" : "Ecommerce-ETL",
+    "location-information" : {
+
+      "source": {
+      "location": "local-test",
+      "path": "/home/ganesh/DataSet/SampleCheck.csv"
+    },
+      "target" : {
+        "location" : "local-test",
+        "path" : "/home/ganesh/TargetDataLocation",
+        "partition-columns" : ["year","month"]
+      }
+
+    },
+    "schema-path" : "src/main/resources/schema/ecom_base.json"
+  },
+  "body" : {
+    "replace-null-values" : {
+      "category_code" : "miscellaneous"
+    },
+    "timestamp-pattern" : "\\d\\d\\d\\d-\\d\\d-\\d\\d\\s\\d\\d:\\d\\d:\\d\\d"
+  }
+}
