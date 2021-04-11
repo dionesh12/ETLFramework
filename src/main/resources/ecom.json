@@ -4,11 +4,11 @@
     "location-information" : {
 
       "source": {
-      "location": "local-test",
-      "path": "/home/ganesh/DataSet/SampleCheck.csv"
+      "location": "local",
+      "path": "/home/ganesh/DataSet/"
     },
       "target" : {
-        "location" : "local-test",
+        "location" : "local",
         "path" : "/home/ganesh/TargetDataLocation",
         "partition-columns" : ["year","month"]
       }

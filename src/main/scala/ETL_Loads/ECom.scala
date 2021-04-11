@@ -22,7 +22,7 @@ object ECom {
 
 
     logger.info("Generate a DataFrame")
-    val ecomBaseDF = CommonFuncs.SparkCommon.readCSV(spark,inputPath,schema).limit(1)  // Test
+    val ecomBaseDF = CommonFuncs.SparkCommon.readCSV(spark,inputPath,schema)
     logger.info("Generated a DataFrame")
 
     logger.info("Replace Null Value for Categor_Code")
